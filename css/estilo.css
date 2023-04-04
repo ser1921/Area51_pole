@@ -8,13 +8,14 @@
     overflow-x: hidden;
 }
 
-body{
-    font-family: 'Orbitron', sans-serif;}
+body {
+    font-family: 'Orbitron', sans-serif;
+}
 
 
 /*INICIO*/
 
-.inicio{
+.inicio {
     background-image: url(../img/bg7.jpg);
     height: 95vh;
     overflow: hidden;
@@ -49,10 +50,10 @@ i {
     padding-left: 2vh;
 }
 
-a{
+a {
     text-decoration: none;
     color: white;
-    
+
 }
 
 h1 {
@@ -61,7 +62,7 @@ h1 {
 
 /*HTML AERO*/
 
-.sect1{
+.sect1 {
     background-image: url(../img/bgpole.jpg);
     height: 90vh;
     overflow: hidden;
@@ -73,31 +74,34 @@ h1 {
     align-items: center;
 }
 
-.logopole{
+.logopole {
     width: 50px;
     height: 50px;
 }
-.navmio{
+
+.navmio {
     display: flex;
     justify-content: space-between;
 }
 
-.p1{
+.p1 {
     font-size: 3vh;
     text-align: center;
     color: rgb(255, 255, 255);
     opacity: 1;
 }
-.p2{
+
+.p2 {
     font-size: 5vh;
     text-align: center;
     color: white;
     opacity: 1;
-    
+
 }
+
 /*HTML AREA51*/
 
-.pagcross{
+.pagcross {
     background-image: url(../img/bgar51.jpg);
     height: 95vh;
     overflow: hidden;
@@ -105,7 +109,7 @@ h1 {
     display: flex;
 }
 
-.customnav{
+.customnav {
     background-color: black;
     color: white;
 }
@@ -113,7 +117,7 @@ h1 {
 
 /*BOTON WHATSAPP*/
 
-.botonWhatsApp img{
+.botonWhatsApp img {
     width: 70px;
     position: fixed;
     bottom: 10px;
@@ -130,5 +134,22 @@ footer {
     display: flex;
     justify-content: center;
     align-items: center;
-    
+
+}
+
+@media (max-width: 600px) {
+    .p1 {
+        font-size: 2vh;
+        text-align: center;
+        color: rgb(255, 255, 255);
+        opacity: 1;
+    }
+
+    .p2 {
+        font-size: 3vh;
+        text-align: center;
+        color: white;
+        opacity: 1;
+
+    }
 }
