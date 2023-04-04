@@ -52,24 +52,48 @@ i {
 a{
     text-decoration: none;
     color: white;
+    
 }
 
+h1 {
+    font-size: 3vh;
+}
 
 /*HTML AERO*/
-.pagaero{
-    background-image: url(../img/gif.gif);
-    height: 85vh;
+
+.sect1{
+    background-image: url(../img/bgpole.jpg);
+    height: 90vh;
     overflow: hidden;
     background-position: center;
     display: flex;
+    background-size: cover;
+    opacity: 0.5;
+    justify-content: center;
+    align-items: center;
 }
 
 .logopole{
     width: 50px;
     height: 50px;
 }
-.navbar{
-    height: 10vh;
+.navmio{
+    display: flex;
+    justify-content: space-between;
+}
+
+.p1{
+    font-size: 3vh;
+    text-align: center;
+    color: rgb(255, 255, 255);
+    opacity: 1;
+}
+.p2{
+    font-size: 5vh;
+    text-align: center;
+    color: white;
+    opacity: 1;
+    
 }
 /*HTML AREA51*/
 
@@ -81,6 +105,20 @@ a{
     display: flex;
 }
 
+.customnav{
+    background-color: black;
+    color: white;
+}
+
+
+/*BOTON WHATSAPP*/
+
+.botonWhatsApp img{
+    width: 70px;
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
+}
 
 /*FOOTER*/
 
