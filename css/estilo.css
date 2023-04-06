@@ -128,6 +128,10 @@ h1 {
     color: #fff;
 }
 
+.navbar-toggler{
+    color: white;
+}
+
 .secthorarios {
     background-color: black;
     color: white;
@@ -148,22 +152,26 @@ h1 {
 .botonWhatsApp img {
     width: 70px;
     position: fixed;
-    bottom: 10px;
+    bottom: 6vh;
     right: 10px;
+    border-radius: 50%;
 }
 
 .botonpole img {
     width: 70px;
     position: fixed;
-    bottom: 10px;
+    bottom: 6vh;
     left: 10px;
+    border-radius: 50%;
 }
 
 .boton51 img {
     width: 70px;
     position: fixed;
-    bottom: 10px;
+    bottom: 6vh;
     left: 10px;
+    border-radius: 50%;
+    mix-blend-mode: color-burn;
 }
 
 /*FOOTER*/
@@ -211,4 +219,9 @@ footer {
     .secthorarios {
         font-size: 2vh;
     }
+    .imgfondo{
+        height: 25vh;
+        width: 25vh;
+    }
+
 }
